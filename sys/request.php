@@ -17,7 +17,6 @@
     }
     self::$query=$array_query;
     //Coder::code_var($array_query);
-    print_r($array_query);
   }
   static function getCont(){
      return array_shift(self::$query);
